@@ -1,0 +1,13 @@
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\bin\Debug\EF.exe.config
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\bin\Debug\EF.exe
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\bin\Debug\EF.pdb
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.csprojAssemblyReference.cache
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.Form1.resources
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.Properties.Resources.resources
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.csproj.GenerateResource.cache
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.csproj.CoreCompileInputs.cache
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.exe
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.pdb
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\bin\Debug\EntityFramework.dll
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\bin\Debug\EntityFramework.xml
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\EF\EF\obj\Debug\EF.csproj.CopyComplete
