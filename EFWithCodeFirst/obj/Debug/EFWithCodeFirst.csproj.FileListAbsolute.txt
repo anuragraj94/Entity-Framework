@@ -13,3 +13,17 @@ C:\Users\AE TELELINK\source\repos\WinFormWithEF\EFWithCodeFirst\obj\Debug\EFWith
 C:\Users\AE TELELINK\source\repos\WinFormWithEF\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.csproj.CopyComplete
 C:\Users\AE TELELINK\source\repos\WinFormWithEF\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.exe
 C:\Users\AE TELELINK\source\repos\WinFormWithEF\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.pdb
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.Form1.resources
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.Properties.Resources.resources
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.csproj.GenerateResource.cache
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EFWithCodeFirst.exe.config
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EFWithCodeFirst.exe
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EFWithCodeFirst.pdb
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.csproj.CopyComplete
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.exe
+C:\Users\AE TELELINK\source\repos\WinFormWithEF\Entity-Framework\EFWithCodeFirst\obj\Debug\EFWithCodeFirst.pdb

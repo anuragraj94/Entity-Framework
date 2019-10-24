@@ -13,6 +13,12 @@ namespace EFWithCodeFirst
 {
     public partial class Form1 : Form
     {
+        private readonly ModelContext _ModelContext;
+        public Form1(ModelContext modelContext)
+        {            
+            _ModelContext = modelContext;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -26,13 +32,13 @@ namespace EFWithCodeFirst
             cmGender.Text = "Select";
             cmGender.Items.Add("Male");   // Adding values for Gender Combobox
             cmGender.Items.Add("Female");
-            Display();
+            dataGridView1.DataSource= Display();
         }
-        public void Display()
-        {
+        public List<student> Display()
+        {            
             using (var context=new ModelContext())
             {
-                context.students.ToList();
+                 return context.students.ToList();
             }
         }
         private void btnSave_Click(object sender, EventArgs e)
@@ -50,13 +56,16 @@ namespace EFWithCodeFirst
             lblmsg.Visible = true;
             lblmsg.Text = "Data is saved...";
             ClearFields();
+            dataGridView1.DataSource = Display();
         }
-
+        int id;
+        student stu;
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             using (var context=new ModelContext())
-            {
-                student stu = new student();
+            {                
+                id = Convert.ToInt32(stu.Id);
+                stu = context.students.Where(x => x.Id == id).Select(x => x).FirstOrDefault();
                 stu.Name = txtName.Text;
                 stu.Age = Convert.ToInt32(txtAge.Text);
                 stu.City = txtCity.Text;
@@ -66,11 +75,18 @@ namespace EFWithCodeFirst
             }
             lblmsg.Text = "Data is Updated...";
             ClearFields();
+            dataGridView1.DataSource = Display();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            ClearFields();
+            //using (ModelContext _entity = new ModelContext())
+            //{
+            //    student _student = _entity.students.Where(x => x.Id == _student.Id).Select(x => x).FirstOrDefault();
+            //    _entity._student.Remove(_student);
+            //    _entity.SaveChanges();                
+            //}
+            //ClearFields();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -86,7 +102,7 @@ namespace EFWithCodeFirst
                     cmGender.SelectedItem = row.Cells[4].Value.ToString();
                 }
             }
-            ClearFields();
+            //ClearFields();
         }
         public void ClearFields() // Clear the fields after Insert or Update or Delete operation  
         {

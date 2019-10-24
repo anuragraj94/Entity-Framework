@@ -37,15 +37,21 @@ namespace EF
         }
 
         private void btnSave_Click(object sender, EventArgs e)
-        {            
-            StudentDetail stu = new StudentDetail();
-            stu.Name = txtName.Text;
-            stu.Age = Convert.ToInt32(txtAge.Text);
-            stu.City = txtCity.Text;
-            stu.Gender = cmGender.SelectedItem.ToString();
-            bool result = SaveStudentDetails(stu); // calling SaveStudentDetails method to save the record in table.Here passing a student details object as parameter  
-            ShowStatus(result, "Save");
-
+        {
+            try
+            {
+                StudentDetail stu = new StudentDetail();
+                stu.Name = txtName.Text;
+                stu.Age = Convert.ToInt32(txtAge.Text);
+                stu.City = txtCity.Text;
+                stu.Gender = cmGender.SelectedItem.ToString();
+                bool result = SaveStudentDetails(stu); // calling SaveStudentDetails method to save the record in table.Here passing a student details object as parameter  
+                ShowStatus(result, "Save");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Something is missing");
+            }
         }
         public bool SaveStudentDetails(StudentDetail Stu) // calling SaveStudentMethod for insert a new record  
         {

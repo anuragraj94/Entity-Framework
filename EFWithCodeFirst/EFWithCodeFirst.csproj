@@ -64,6 +64,7 @@
     </Compile>
     <Compile Include="Model\ModelContext.cs" />
     <Compile Include="Model\student.cs" />
+    <Compile Include="Model\user.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
